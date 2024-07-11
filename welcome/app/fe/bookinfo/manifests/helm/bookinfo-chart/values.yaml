@@ -29,4 +29,6 @@ tolerations: []
 affinity: {}
 
 spec:
-  replicas: 4
+  replicas:
+    replicaCount: 4
+
